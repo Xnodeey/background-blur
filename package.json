@@ -2,13 +2,13 @@
   "name": "background-blur",
   "version": "0.1.3",
   "description": "jQuery Plugin for cross-browser blurring of images",
-  "main": "dist/background-blur.min.js",
+  "main": "src/background-blur.js",
   "scripts": {
     "build": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/msurguy/background-blur.git"
+    "url": "git://github.com/Xnodeey/background-blur.git"
   },
   "keywords": [
     "Blur",
