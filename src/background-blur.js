@@ -130,6 +130,10 @@
     this.$height      = this.$element.height();
     this.element      = element;
     this.options      = $.extend({}, Blur.DEFAULTS, options);
+    this.customDataOptions = {
+      imageURL: this.$element.attr('data-image')
+    }
+    this.options = $.extend({}, Blur.DEFAULTS, this.customDataOptions);
     this.$overlayEl   = this.createOverlay();
     this.$blurredImage = {};
     this.useVelocity = this.detectVelocity(); // If Velocity.js is present, use it for performant animation
